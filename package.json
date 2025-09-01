@@ -1,4 +1,3 @@
-# Inside your local repo folder
 npm init -y
 echo "console.log('Hello World');" > index.js
 git add package.json index.js
