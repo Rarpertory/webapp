@@ -1,0 +1,19 @@
+# Inside your local repo folder
+npm init -y
+echo "console.log('Hello World');" > index.js
+git add package.json index.js
+git commit -m "Add minimal Node.js project"
+git push origin main
+{
+  "name": "webapp",
+  "version": "1.0.0",
+  "description": "Minimal Node.js project for Jenkins CI/CD",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo Building app...",
+    "test": "echo Running tests..."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {}
+}
