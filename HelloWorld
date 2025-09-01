@@ -1,0 +1,7 @@
+# Inside your repo folder
+npm init -y
+npm install
+echo "console.log('Hello World');" > index.js
+git add .
+git commit -m "Add initial Node.js project"
+git push origin main
